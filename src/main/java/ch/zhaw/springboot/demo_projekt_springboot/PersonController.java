@@ -34,7 +34,7 @@ public Person getPerson (@PathVariable Integer id){
 
 @PostMapping("/person")
 public void createPerson (@RequestBody Person person){
-  var newId = this.persons.keySet() .stream() .max(Comparator.naturalOrder()) orElse (0) + 1;
+  var newId = this.persons.keySet() .stream() .max(Comparator.naturalOrder()).orElse (0) + 1;
   person.setId(newId);
   this.persons.put(newId , person);
 }
