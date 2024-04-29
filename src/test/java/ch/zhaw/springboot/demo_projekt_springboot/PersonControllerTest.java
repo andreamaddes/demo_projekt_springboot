@@ -1,5 +1,5 @@
 package ch.zhaw.springboot.demo_projekt_springboot;
 
-public class PersonControllerTests {
+public class PersonControllerTest {
     
 }
