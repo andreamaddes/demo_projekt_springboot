@@ -1,7 +1,7 @@
 HELP.md
 .gradle
 !build/
-\build\classes
+!\build\classes
 \build\generated
 \build\libs
 \build\reports
