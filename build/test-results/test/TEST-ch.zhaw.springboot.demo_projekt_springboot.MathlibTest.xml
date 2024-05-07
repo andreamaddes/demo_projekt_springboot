@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.zhaw.springboot.demo_projekt_springboot.MathlibTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-29T10:44:50" hostname="HP-ANDRE" time="0.007">
+  <properties/>
+  <testcase name="testEven1()" classname="ch.zhaw.springboot.demo_projekt_springboot.MathlibTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
