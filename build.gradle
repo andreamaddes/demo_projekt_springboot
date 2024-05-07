@@ -24,3 +24,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+    // Enable JUnit XML and HTML report generation
+    reports {
+        junitXml.enabled = true
+        html.enabled = true
+    }
